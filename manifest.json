@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://*/*"],
+      "matches": ["https://psnprofiles.com/trophies/*"],
       "js": ["background.js"]
     }
   ],
