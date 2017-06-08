@@ -2,10 +2,11 @@
 
 A Chrome Extension that improves a user's experience on <a href="https://psnprofiles.com/">PSNProfiles</a>.
 
-#Current Features
+<b>Current Features</b>
+Link to Amazon to purchase game.
 
-#In-progresss Features
+<b>In-progresss Features</b><br>
 Metacritic and OpenCritic scores
 
-#Planned Features
+<b>Planned Features</b><br>
 Displaying the region of the game
