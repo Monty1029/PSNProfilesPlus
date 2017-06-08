@@ -6,7 +6,8 @@ A Chrome Extension that improves a user's experience on <a href="https://psnprof
 Link to Amazon to purchase game.
 
 <b>In-progresss Features</b><br>
-Metacritic and OpenCritic scores
+Metacritic and OpenCritic scores<br>
+Displaying the region of the game
 
 <b>Planned Features</b><br>
-Displaying the region of the game
+
