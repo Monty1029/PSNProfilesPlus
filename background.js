@@ -44,3 +44,8 @@ tdata_amazon_link.appendChild(ahref);
 tdata_amazon.appendChild(amazon_link);
 var amazon_link_row = document.getElementsByClassName("gameInfo zebra")[0].appendChild(tbody).appendChild(trow_amazon);
 amazon_link_row.appendChild(tdata_amazon_link);
+
+/*Base Game Trophy Points*/
+
+var baseGame = document.getElementsByClassName("title")[3].textContent;
+console.log(baseGame);
