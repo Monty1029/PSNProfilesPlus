@@ -47,5 +47,21 @@ amazon_link_row.appendChild(tdata_amazon_link);
 
 /*Base Game Trophy Points*/
 
-var baseGame = document.getElementsByClassName("title")[3].textContent;
-console.log(baseGame);
+var baseGame = document.getElementsByClassName("title")[2].textContent;
+var BRONZE_POINTS = 15;
+var SILVER_POINTS = 30;
+var GOLD_POINTS = 90;
+var PLATINUM_POINTS = 180;
+var bronzeTotal = 0;
+var silverTotal = 0;
+var goldTotal = 0;
+var platinumTotal = 0;
+var totalPoints = 0;
+if (baseGame == "Base Game") {
+    var trophyListParent = document.getElementsByClassName("zebra")[2];
+    for(var i=2; i<50; i+=3) {
+        var trophyGrade = trophyListParent.querySelectorAll("table.zebra img")[i].getAttribute("title");
+        console.log(trophyGrade);
+        console.log(trophyListParent.length);
+    }
+}
