@@ -52,16 +52,25 @@ var BRONZE_POINTS = 15;
 var SILVER_POINTS = 30;
 var GOLD_POINTS = 90;
 var PLATINUM_POINTS = 180;
-var bronzeTotal = 0;
-var silverTotal = 0;
-var goldTotal = 0;
-var platinumTotal = 0;
 var totalPoints = 0;
+var trophyGrade = "";
 if (baseGame == "Base Game") {
     var trophyListParent = document.getElementsByClassName("zebra")[2];
-    for(var i=2; i<50; i+=3) {
-        var trophyGrade = trophyListParent.querySelectorAll("table.zebra img")[i].getAttribute("title");
-        console.log(trophyGrade);
-        console.log(trophyListParent.length);
+    var trophyListLength = trophyListParent.querySelectorAll("table.zebra tr").length;
+    for(var i=2; i < (trophyListLength*3)-3; i+=3) {
+        trophyGrade = trophyListParent.querySelectorAll("table.zebra img")[i].getAttribute("title");
+        if (trophyGrade == "Bronze") {
+            totalPoints += BRONZE_POINTS;
+        }
+        else if(trophyGrade == "Silver") {
+            totalPoints += SILVER_POINTS;
+        }
+        else if(trophyGrade == "Gold") {
+            totalPoints += GOLD_POINTS;
+        }
+        else if(trophyGrade == "Platinum") {
+            totalPoints += PLATINUM_POINTS;
+        }
     }
+    console.log(totalPoints);
 }
