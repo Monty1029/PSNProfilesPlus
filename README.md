@@ -3,7 +3,8 @@
 A Chrome Extension that improves a user's experience on <a href="https://psnprofiles.com/">PSNProfiles</a>.
 
 <b>Current Features</b><br>
-Link to Amazon to purchase game.
+Link to Amazon to purchase game.<br>
+Total trophy points for the base game where applicable.
 
 <b>In-progresss Features</b><br>
 Metacritic and OpenCritic scores<br>
