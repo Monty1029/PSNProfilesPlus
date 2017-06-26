@@ -73,4 +73,12 @@ if (baseGame == "Base Game") {
         }
     }
     console.log(totalPoints);
+    var trophyPointsDiv = document.createElement("div");
+    var trophyPointsSpan = document.createElement("span");
+    var trophyPointsText = document.createTextNode(totalPoints + " Points");
+    trophyPointsDiv.appendChild(trophyPointsText);
+    trophyPointsSpan.appendChild(trophyPointsDiv);
+    var baseGameHeader = document.getElementsByClassName("zebra")[1].querySelectorAll("td")[3];
+    trophyPointsSpan.style.fontWeight = "700";
+    baseGameHeader.appendChild(trophyPointsSpan);
 }
