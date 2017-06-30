@@ -7,8 +7,7 @@ Link to Amazon to purchase game.<br>
 Total trophy points for the base game where applicable.
 
 <b>In-progresss Features</b><br>
-Metacritic and OpenCritic scores<br>
-Displaying the region of the game
+Making the row colours of completed games on trophy list more visible for monitors with low colour accuracy.
 
 <b>Planned Features</b><br>
-
+Metacritic and OpenCritic scores.

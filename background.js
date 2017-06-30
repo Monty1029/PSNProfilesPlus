@@ -3,7 +3,7 @@ var gameTitleRaw = gameTitleParent.getElementsByTagName("h3")[0].textContent;
 var gameTitle = "";
 
 gameInformation();
-metacriticScores();
+//metacriticScores();
 amazonLink();
 baseGameTrophyPoints();
 
@@ -20,7 +20,7 @@ function gameInformation() {
 }
 
 /*Metacritic scores*/
-function metacriticScores() {
+/*function metacriticScores() {
     var tbody = document.createElement("tbody");
     var trow = document.createElement("tr");
     var tdata_metacritic = document.createElement("td");
@@ -32,7 +32,7 @@ function metacriticScores() {
     var extra_row = document.getElementsByClassName("gameInfo zebra")[0].appendChild(tbody).appendChild(trow);
     extra_row.appendChild(tdata_metacritic);
     extra_row.appendChild(tdata_score);
-}
+}*/
 
 /*Amazon link*/
 function amazonLink() {
