@@ -6,5 +6,5 @@ for (var i = 1; i < platinum.length; i++) {
 }
 
 for (var i = 0; i < completed.length; i++) {
-    platinum[i].setAttribute("style", "background-color: #e8ffe4 !important");
+    completed[i].setAttribute("style", "background-color: #e8ffe4 !important");
 }
