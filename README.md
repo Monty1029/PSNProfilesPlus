@@ -12,3 +12,4 @@ A Chrome Extension that improves a user's experience on <a href="https://psnprof
 
 <b>Planned Features</b><br>
 * Metacritic and OpenCritic scores.
+* Add trophy milestones for every 1000th overall trophy and every 50th platinum trophy.
